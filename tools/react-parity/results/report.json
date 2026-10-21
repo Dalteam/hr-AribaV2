@@ -1,0 +1,2197 @@
+{
+ "stamp": {
+  "now": "2026-10-18",
+  "at": "2026-10-18T07:00:00.000Z"
+ },
+ "total": 81428,
+ "diff": 0,
+ "unexplained": 0,
+ "suites": [
+  {
+   "id": "payx",
+   "title": "محرك المسيّر PAYX (A..AW)",
+   "rows": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    29,
+    30,
+    31
+   ],
+   "cases": 20006,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "1": 20006,
+    "2": 20006,
+    "3": 20006,
+    "4": 20006,
+    "5": 20006,
+    "6": 20006,
+    "7": 20006,
+    "8": 20006,
+    "10": 20006,
+    "11": 20006,
+    "12": 20006,
+    "13": 20006,
+    "14": 20006,
+    "15": 20006,
+    "16": 20006,
+    "17": 20006,
+    "18": 20006,
+    "19": 20006,
+    "20": 20006,
+    "21": 20006,
+    "22": 20006,
+    "23": 20006,
+    "24": 20006,
+    "25": 20006,
+    "26": 20006,
+    "27": 20006,
+    "29": 20006,
+    "30": 20006
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": []
+  },
+  {
+   "id": "rows",
+   "title": "صفوف المسيّر (من يدخل، الافتراضيات، noEos، الإضافي القديم، المجاميع)",
+   "rows": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    41,
+    42
+   ],
+   "cases": 5051,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "32": 6000,
+    "33": 4811,
+    "34": 4811,
+    "36": 4811,
+    "37": 4811,
+    "41": 4811,
+    "42": 240
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": []
+  },
+  {
+   "id": "eos",
+   "title": "صفحة نهاية الخدمة حسب المادة + المدة",
+   "rows": [
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    75,
+    76
+   ],
+   "cases": 4787,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "67": 303,
+    "68": 909,
+    "69": 606,
+    "70": 303,
+    "71": 303,
+    "72": 60,
+    "73": 303,
+    "76": 2000
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": []
+  },
+  {
+   "id": "settle",
+   "title": "المخالصة sRun",
+   "rows": [
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91
+   ],
+   "cases": 19868,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "78": 19868,
+    "79": 19868,
+    "80": 7960,
+    "81": 4012,
+    "82": 1935,
+    "83": 1975,
+    "84": 3986,
+    "85": 18812,
+    "86": 18812,
+    "87": 19868,
+    "88": 18812,
+    "89": 19868,
+    "90": 18812,
+    "91": 2112
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": []
+  },
+  {
+   "id": "rates",
+   "title": "جدول نسب التأمينات حسب الشهر (2024–2030)",
+   "rows": [
+    45,
+    46,
+    47,
+    48
+   ],
+   "cases": 84,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "45": 60,
+    "46": 24,
+    "47": 84,
+    "48": 84
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": []
+  },
+  {
+   "id": "figures",
+   "title": "أرقام الموظف المحفوظة (الإجمالي، التأمينات 31/31، الصافي)",
+   "rows": [
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    57,
+    58
+   ],
+   "cases": 3000,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "54": 3000,
+    "57": 3000,
+    "58": 3000
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": []
+  },
+  {
+   "id": "leave_calendar",
+   "title": "محرك الإجازات — طريقة تقويمية (افتراضيهم)",
+   "rows": [
+    98,
+    101,
+    102,
+    103,
+    104,
+    105,
+    107,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114
+   ],
+   "cases": 300,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "44": 300,
+    "98": 300,
+    "101": 300,
+    "103": 265,
+    "105": 265,
+    "107": 265,
+    "110": 300,
+    "111": 35
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": [
+    "موظفون بدون أرقام مستوردة أو مرضية أو تعديلات (35): 0 فيهم فرق — الحقول: {}"
+   ]
+  },
+  {
+   "id": "leave_monthly",
+   "title": "محرك الإجازات — طريقة شهرية",
+   "rows": [
+    98,
+    101,
+    102,
+    103,
+    104,
+    105,
+    107,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114
+   ],
+   "cases": 300,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "44": 300,
+    "98": 300,
+    "101": 300,
+    "103": 265,
+    "105": 265,
+    "107": 265,
+    "110": 300,
+    "111": 35
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": [
+    "موظفون بدون أرقام مستوردة أو مرضية أو تعديلات (35): 0 فيهم فرق — الحقول: {}"
+   ]
+  },
+  {
+   "id": "leave_workdays",
+   "title": "محرك الإجازات — طريقة أيام عمل (= طريقتنا)",
+   "rows": [
+    98,
+    101,
+    102,
+    103,
+    104,
+    105,
+    107,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114
+   ],
+   "cases": 300,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "44": 300,
+    "101": 300,
+    "102": 300,
+    "103": 265,
+    "104": 300,
+    "105": 265,
+    "107": 265,
+    "110": 300,
+    "111": 35,
+    "112": 300,
+    "113": 300,
+    "114": 300
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": [
+    "موظفون بدون أرقام مستوردة أو مرضية أو تعديلات (35): 0 فيهم فرق — الحقول: {}"
+   ]
+  },
+  {
+   "id": "attendance",
+   "title": "تقارير الحضور (تجميع الجلسات وتصنيف الأيام والملخص)",
+   "rows": [
+    121,
+    122,
+    123,
+    124
+   ],
+   "cases": 6640,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "121": 6215,
+    "122": 6215,
+    "123": 25,
+    "125": 400,
+    "126": 400
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": []
+  },
+  {
+   "id": "tafqeet",
+   "title": "التفقيط",
+   "rows": [
+    156
+   ],
+   "cases": 5032,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "156": 5032
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": []
+  },
+  {
+   "id": "alerts",
+   "title": "تنبيهات لوحة التحكم (V142) والأيام المتبقية",
+   "rows": [
+    147,
+    148,
+    61
+   ],
+   "cases": 3000,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "61": 2400,
+    "147": 2400,
+    "148": 600
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": []
+  },
+  {
+   "id": "salcalc",
+   "title": "حاسبة الراتب (4 أوضاع)",
+   "rows": [
+    163,
+    164,
+    165,
+    166,
+    167
+   ],
+   "cases": 4000,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "163": 4000,
+    "164": 4000,
+    "165": 4000,
+    "166": 4000,
+    "167": 4000
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": []
+  },
+  {
+   "id": "tax",
+   "title": "ضريبة القيمة المضافة",
+   "rows": [
+    168,
+    169
+   ],
+   "cases": 1000,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "168": 1000,
+    "169": 1000
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": []
+  },
+  {
+   "id": "assets",
+   "title": "إهلاك الأصول والجرد السنوي",
+   "rows": [
+    174,
+    175,
+    176
+   ],
+   "cases": 1500,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "174": 1500,
+    "175": 1500,
+    "176": 1500
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": []
+  },
+  {
+   "id": "yearreport",
+   "title": "جرد الأصول السنوي (المجاميع)",
+   "rows": [
+    176
+   ],
+   "cases": 60,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "176": 60
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": []
+  },
+  {
+   "id": "wps",
+   "title": "فحص الآيبان والهوية",
+   "rows": [
+    172,
+    173
+   ],
+   "cases": 1000,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "172": 1000,
+    "173": 1000
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": []
+  },
+  {
+   "id": "goals",
+   "title": "المستهدفات والتقييم (النسبة، التصنيف، مفتاح الفترة)",
+   "rows": [
+    177,
+    179,
+    180
+   ],
+   "cases": 1000,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "177": 1000,
+    "179": 1000,
+    "180": 1000
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": []
+  },
+  {
+   "id": "egypt",
+   "title": "دولة مصر (التأمينات والضريبة والشهداء والإجازات والاستقالة)",
+   "rows": [
+    31,
+    56,
+    94,
+    120,
+    182,
+    183,
+    184,
+    185
+   ],
+   "cases": 1500,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "31": 1500,
+    "56": 1500,
+    "94": 1500,
+    "120": 1500,
+    "182": 1500,
+    "183": 1500,
+    "184": 1500,
+    "185": 1500
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": []
+  },
+  {
+   "id": "inscalc",
+   "title": "حاسبة التأمينات / ملف GOSI الشهري (calcFor)",
+   "rows": [
+    170
+   ],
+   "cases": 1500,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "170": 1500
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": []
+  },
+  {
+   "id": "prov",
+   "title": "تقرير المخصصات (provFor)",
+   "rows": [
+    171
+   ],
+   "cases": 1500,
+   "diffCases": 0,
+   "fields": {},
+   "causes": {},
+   "unexplained": 0,
+   "rowCases": {
+    "171": 1500
+   },
+   "rowDiffs": {},
+   "samples": [],
+   "notes": []
+  }
+ ],
+ "verdict": [
+  {
+   "row": 1,
+   "area": "المسيّر (PAYX)",
+   "formula": "V الراتب حسب الأيام",
+   "status": "مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 2,
+   "area": "المسيّر (PAYX)",
+   "formula": "Y بدل السكن بالأيام",
+   "status": "مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 3,
+   "area": "المسيّر (PAYX)",
+   "formula": "Z بدل المواصلات بالأيام",
+   "status": "مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 4,
+   "area": "المسيّر (PAYX)",
+   "formula": "AA بدل المشروع بالأيام",
+   "status": "مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 5,
+   "area": "المسيّر (PAYX)",
+   "formula": "AB البدلات الأخرى بالأيام",
+   "status": "مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 6,
+   "area": "المسيّر (PAYX)",
+   "formula": "T الراتب شامل البدلات",
+   "status": "مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 7,
+   "area": "المسيّر (PAYX)",
+   "formula": "X الإضافي",
+   "status": "مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 8,
+   "area": "المسيّر (PAYX)",
+   "formula": "I نهاية العقد",
+   "status": "مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 10,
+   "area": "المسيّر (PAYX)",
+   "formula": "AD/AE/AF مدة الخدمة سنة/شهر/يوم",
+   "status": "مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 11,
+   "area": "المسيّر (PAYX)",
+   "formula": "K سنوات الخدمة",
+   "status": "مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 12,
+   "area": "المسيّر (PAYX)",
+   "formula": "N رصيد الإجازة خلال التعاقد",
+   "status": "غير مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 13,
+   "area": "المسيّر (PAYX)",
+   "formula": "O ما تم استحقاقه (أيام مأخوذة)",
+   "status": "مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 14,
+   "area": "المسيّر (PAYX)",
+   "formula": "P الرصيد المستحق",
+   "status": "غير مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 15,
+   "area": "المسيّر (PAYX)",
+   "formula": "AC بدل الإجازة",
+   "status": "غير مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 16,
+   "area": "المسيّر (PAYX)",
+   "formula": "AG تكلفة السنوات",
+   "status": "شبه مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 17,
+   "area": "المسيّر (PAYX)",
+   "formula": "AH تكلفة الشهور",
+   "status": "شبه مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 18,
+   "area": "المسيّر (PAYX)",
+   "formula": "AI تكلفة الأيام",
+   "status": "شبه مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 19,
+   "area": "المسيّر (PAYX)",
+   "formula": "AJ إجمالي المكافأة",
+   "status": "شبه مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 20,
+   "area": "المسيّر (PAYX)",
+   "formula": "أسباب الإنهاء ومعامل المكافأة",
+   "status": "غير مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 21,
+   "area": "المسيّر (PAYX)",
+   "formula": "التعرف على سبب الإنهاء من النص",
+   "status": "شبه مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 22,
+   "area": "المسيّر (PAYX)",
+   "formula": "AK مكافأة نهاية الخدمة",
+   "status": "غير مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 23,
+   "area": "المسيّر (PAYX)",
+   "formula": "AM إجمالي المستحق",
+   "status": "غير مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 24,
+   "area": "المسيّر (PAYX)",
+   "formula": "أيام التأمينات",
+   "status": "مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 25,
+   "area": "المسيّر (PAYX)",
+   "formula": "AQ الأجر الخاضع للتأمينات",
+   "status": "غير مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 26,
+   "area": "المسيّر (PAYX)",
+   "formula": "AO تأمينات الموظف",
+   "status": "غير مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 27,
+   "area": "المسيّر (PAYX)",
+   "formula": "AR تأمينات الشركة",
+   "status": "غير مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 29,
+   "area": "المسيّر (PAYX)",
+   "formula": "AU إجمالي المستقطع",
+   "status": "شبه مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 30,
+   "area": "المسيّر (PAYX)",
+   "formula": "AV / AW الصافي والصافي بالريال",
+   "status": "غير مطابق",
+   "cases": 20006,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "payx"
+   ]
+  },
+  {
+   "row": 31,
+   "area": "المسيّر (PAYX)",
+   "formula": "ضريبة الدخل والشهداء (مصر)",
+   "status": "عندهم فقط",
+   "cases": 1500,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "egypt"
+   ]
+  },
+  {
+   "row": 32,
+   "area": "صفوف المسيّر",
+   "formula": "من يدخل المسيّر",
+   "status": "شبه مطابق",
+   "cases": 6000,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "rows"
+   ]
+  },
+  {
+   "row": 33,
+   "area": "صفوف المسيّر",
+   "formula": "أيام العمل/التأمينات الافتراضية",
+   "status": "مطابق",
+   "cases": 4811,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "rows"
+   ]
+  },
+  {
+   "row": 34,
+   "area": "صفوف المسيّر",
+   "formula": "حالة التأمينات الافتراضية",
+   "status": "مطابق",
+   "cases": 4811,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "rows"
+   ]
+  },
+  {
+   "row": 36,
+   "area": "صفوف المسيّر",
+   "formula": "أيام الإجازة السنوية في الصف",
+   "status": "شبه مطابق",
+   "cases": 4811,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "rows"
+   ]
+  },
+  {
+   "row": 37,
+   "area": "صفوف المسيّر",
+   "formula": "تمرير noEos للمحرك",
+   "status": "غير مطابق",
+   "cases": 4811,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "rows"
+   ]
+  },
+  {
+   "row": 41,
+   "area": "صفوف المسيّر",
+   "formula": "ترحيل الإضافي القديم لمبلغ يدوي",
+   "status": "عندهم فقط",
+   "cases": 4811,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "rows"
+   ]
+  },
+  {
+   "row": 42,
+   "area": "صفوف المسيّر",
+   "formula": "مجاميع المسيّر",
+   "status": "شبه مطابق",
+   "cases": 240,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "rows"
+   ]
+  },
+  {
+   "row": 44,
+   "area": "صفوف المسيّر",
+   "formula": "ما تم استحقاقه (usedThrough)",
+   "status": "شبه مطابق",
+   "cases": 900,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "leave_calendar",
+    "leave_monthly",
+    "leave_workdays"
+   ]
+  },
+  {
+   "row": 45,
+   "area": "التأمينات",
+   "formula": "جدول النسب حسب التاريخ",
+   "status": "غير مطابق",
+   "cases": 60,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "rates"
+   ]
+  },
+  {
+   "row": 46,
+   "area": "التأمينات",
+   "formula": "النسب قبل 2026",
+   "status": "غير مطابق",
+   "cases": 24,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "rates"
+   ]
+  },
+  {
+   "row": 47,
+   "area": "التأمينات",
+   "formula": "نسبة 55 سنة فأكثر",
+   "status": "مطابق",
+   "cases": 84,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "rates"
+   ]
+  },
+  {
+   "row": 48,
+   "area": "التأمينات",
+   "formula": "الحد الأعلى للأجر",
+   "status": "مطابق",
+   "cases": 84,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "rates"
+   ]
+  },
+  {
+   "row": 54,
+   "area": "التأمينات",
+   "formula": "تأمينات الموظف عند حفظ بياناته (31/31)",
+   "status": "شبه مطابق",
+   "cases": 3000,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "figures"
+   ]
+  },
+  {
+   "row": 56,
+   "area": "التأمينات",
+   "formula": "تأمينات مصر",
+   "status": "عندهم فقط",
+   "cases": 1500,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "egypt"
+   ]
+  },
+  {
+   "row": 57,
+   "area": "بيانات الموظف",
+   "formula": "إجمالي الراتب",
+   "status": "مطابق",
+   "cases": 3000,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "figures"
+   ]
+  },
+  {
+   "row": 58,
+   "area": "بيانات الموظف",
+   "formula": "صافي الراتب",
+   "status": "شبه مطابق",
+   "cases": 3000,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "figures"
+   ]
+  },
+  {
+   "row": 61,
+   "area": "بيانات الموظف",
+   "formula": "الأيام المتبقية (إقامة/جواز/عقد/تأمين طبي)",
+   "status": "مطابق",
+   "cases": 2400,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "alerts"
+   ]
+  },
+  {
+   "row": 67,
+   "area": "نهاية الخدمة",
+   "formula": "مكافأة م.84",
+   "status": "مطابق",
+   "cases": 303,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "eos"
+   ]
+  },
+  {
+   "row": 68,
+   "area": "نهاية الخدمة",
+   "formula": "م.74 / م.74(3) / م.74(4)",
+   "status": "مطابق",
+   "cases": 909,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "eos"
+   ]
+  },
+  {
+   "row": 69,
+   "area": "نهاية الخدمة",
+   "formula": "م.85 / م.75 الاستقالة",
+   "status": "غير مطابق",
+   "cases": 606,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "eos"
+   ]
+  },
+  {
+   "row": 70,
+   "area": "نهاية الخدمة",
+   "formula": "م.87 مكافأة كاملة",
+   "status": "عندنا فقط",
+   "cases": 303,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "eos"
+   ]
+  },
+  {
+   "row": 71,
+   "area": "نهاية الخدمة",
+   "formula": "م.77 عقد غير محدد",
+   "status": "مطابق",
+   "cases": 303,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "eos"
+   ]
+  },
+  {
+   "row": 72,
+   "area": "نهاية الخدمة",
+   "formula": "م.77 عقد محدد المدة",
+   "status": "عندنا فقط",
+   "cases": 60,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "eos"
+   ]
+  },
+  {
+   "row": 73,
+   "area": "نهاية الخدمة",
+   "formula": "م.80 فصل تأديبي",
+   "status": "مطابق",
+   "cases": 303,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "eos"
+   ]
+  },
+  {
+   "row": 76,
+   "area": "نهاية الخدمة",
+   "formula": "نص المدة «س سنة ش شهر ي يوم»",
+   "status": "مطابق",
+   "cases": 2000,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "eos"
+   ]
+  },
+  {
+   "row": 78,
+   "area": "المخالصة",
+   "formula": "المدة سنة/شهر/يوم والسنوات",
+   "status": "مطابق",
+   "cases": 19868,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "settle"
+   ]
+  },
+  {
+   "row": 79,
+   "area": "المخالصة",
+   "formula": "e84",
+   "status": "مطابق",
+   "cases": 19868,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "settle"
+   ]
+  },
+  {
+   "row": 80,
+   "area": "المخالصة",
+   "formula": "م.84 / م.74 / تقاعد / وفاة",
+   "status": "مطابق",
+   "cases": 7960,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "settle"
+   ]
+  },
+  {
+   "row": 81,
+   "area": "المخالصة",
+   "formula": "م.85 / م.75",
+   "status": "غير مطابق",
+   "cases": 4012,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "settle"
+   ]
+  },
+  {
+   "row": 82,
+   "area": "المخالصة",
+   "formula": "م.87",
+   "status": "عندنا فقط",
+   "cases": 1935,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "settle"
+   ]
+  },
+  {
+   "row": 83,
+   "area": "المخالصة",
+   "formula": "م.77",
+   "status": "شبه مطابق",
+   "cases": 1975,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "settle"
+   ]
+  },
+  {
+   "row": 84,
+   "area": "المخالصة",
+   "formula": "م.80 / م.53",
+   "status": "مطابق",
+   "cases": 3986,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "settle"
+   ]
+  },
+  {
+   "row": 85,
+   "area": "المخالصة",
+   "formula": "الإجازة المستحقة",
+   "status": "مطابق",
+   "cases": 18812,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "settle"
+   ]
+  },
+  {
+   "row": 86,
+   "area": "المخالصة",
+   "formula": "الرصيد المتبقي وبدله",
+   "status": "مطابق",
+   "cases": 18812,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "settle"
+   ]
+  },
+  {
+   "row": 87,
+   "area": "المخالصة",
+   "formula": "راتب الفترة",
+   "status": "مطابق",
+   "cases": 19868,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "settle"
+   ]
+  },
+  {
+   "row": 88,
+   "area": "المخالصة",
+   "formula": "خصم الإجازة الزائدة",
+   "status": "مطابق",
+   "cases": 18812,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "settle"
+   ]
+  },
+  {
+   "row": 89,
+   "area": "المخالصة",
+   "formula": "الإضافات والخصومات (مبلغ أو أيام)",
+   "status": "مطابق",
+   "cases": 19868,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "settle"
+   ]
+  },
+  {
+   "row": 90,
+   "area": "المخالصة",
+   "formula": "الصافي",
+   "status": "غير مطابق",
+   "cases": 18812,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "settle"
+   ]
+  },
+  {
+   "row": 91,
+   "area": "المخالصة",
+   "formula": "تقريب المدخلات",
+   "status": "شبه مطابق",
+   "cases": 2112,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "settle"
+   ]
+  },
+  {
+   "row": 94,
+   "area": "المخالصة",
+   "formula": "مخالصة مصر",
+   "status": "عندهم فقط",
+   "cases": 1500,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "egypt"
+   ]
+  },
+  {
+   "row": 98,
+   "area": "الإجازات",
+   "formula": "طريقة الاستحقاق",
+   "status": "غير مطابق",
+   "cases": 600,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "leave_calendar",
+    "leave_monthly"
+   ]
+  },
+  {
+   "row": 101,
+   "area": "الإجازات",
+   "formula": "سلسلة الترحيل من السنة السابقة",
+   "status": "شبه مطابق",
+   "cases": 900,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "leave_calendar",
+    "leave_monthly",
+    "leave_workdays"
+   ]
+  },
+  {
+   "row": 102,
+   "area": "الإجازات",
+   "formula": "إقفال السنة",
+   "status": "شبه مطابق",
+   "cases": 300,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "leave_workdays"
+   ]
+  },
+  {
+   "row": 103,
+   "area": "الإجازات",
+   "formula": "رصيد نهاية السنة المستورد (yearEnd)",
+   "status": "غير مطابق",
+   "cases": 795,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "leave_calendar",
+    "leave_monthly",
+    "leave_workdays"
+   ]
+  },
+  {
+   "row": 104,
+   "area": "الإجازات",
+   "formula": "الرصيد الحالي المستورد (current)",
+   "status": "غير مطابق",
+   "cases": 300,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "leave_workdays"
+   ]
+  },
+  {
+   "row": 105,
+   "area": "الإجازات",
+   "formula": "المستخدم الأساسي (baseline)",
+   "status": "شبه مطابق",
+   "cases": 795,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "leave_calendar",
+    "leave_monthly",
+    "leave_workdays"
+   ]
+  },
+  {
+   "row": 107,
+   "area": "الإجازات",
+   "formula": "استرجاع السنوية المقطوعة بإجازة أخرى",
+   "status": "عندهم فقط",
+   "cases": 795,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "leave_calendar",
+    "leave_monthly",
+    "leave_workdays"
+   ]
+  },
+  {
+   "row": 110,
+   "area": "الإجازات",
+   "formula": "فائض نهاية الخدمة المتراكم",
+   "status": "غير مطابق",
+   "cases": 900,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "leave_calendar",
+    "leave_monthly",
+    "leave_workdays"
+   ]
+  },
+  {
+   "row": 111,
+   "area": "الإجازات",
+   "formula": "المجاميع منذ المباشرة (مستحق/مستخدم/متبقي)",
+   "status": "مطابق",
+   "cases": 105,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "leave_calendar",
+    "leave_monthly",
+    "leave_workdays"
+   ]
+  },
+  {
+   "row": 112,
+   "area": "الإجازات",
+   "formula": "رصيد تطبيق الموظف",
+   "status": "غير مطابق",
+   "cases": 300,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "leave_workdays"
+   ]
+  },
+  {
+   "row": 113,
+   "area": "الإجازات",
+   "formula": "رصيد نهاية السنة في التطبيق",
+   "status": "عندنا فقط",
+   "cases": 300,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "leave_workdays"
+   ]
+  },
+  {
+   "row": 114,
+   "area": "الإجازات",
+   "formula": "رصيد الموظف المنتهي",
+   "status": "عندنا فقط",
+   "cases": 300,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "leave_workdays"
+   ]
+  },
+  {
+   "row": 120,
+   "area": "الإجازات",
+   "formula": "إجازات مصر",
+   "status": "عندهم فقط",
+   "cases": 1500,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "egypt"
+   ]
+  },
+  {
+   "row": 121,
+   "area": "الحضور والبصمة",
+   "formula": "تجميع جلسات اليوم",
+   "status": "مطابق",
+   "cases": 6215,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "attendance"
+   ]
+  },
+  {
+   "row": 122,
+   "area": "الحضور والبصمة",
+   "formula": "تصنيف كل يوم",
+   "status": "مطابق",
+   "cases": 6215,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "attendance"
+   ]
+  },
+  {
+   "row": 123,
+   "area": "الحضور والبصمة",
+   "formula": "ملخص الموظف (المتوقع، التأخير، الخروج المبكر، النسبة، متوسط الدخول)",
+   "status": "مطابق",
+   "cases": 25,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "attendance"
+   ]
+  },
+  {
+   "row": 125,
+   "area": "الحضور والبصمة",
+   "formula": "جدول الدوام الرسمي ورمضان",
+   "status": "عندهم فقط",
+   "cases": 400,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "attendance"
+   ]
+  },
+  {
+   "row": 126,
+   "area": "الحضور والبصمة",
+   "formula": "تحديد رمضان",
+   "status": "عندهم فقط",
+   "cases": 400,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "attendance"
+   ]
+  },
+  {
+   "row": 147,
+   "area": "لوحة التحكم والتقارير",
+   "formula": "تنبيهات لوحة التحكم",
+   "status": "غير مطابق",
+   "cases": 2400,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "alerts"
+   ]
+  },
+  {
+   "row": 148,
+   "area": "لوحة التحكم والتقارير",
+   "formula": "تنبيه نهاية فترة التجربة",
+   "status": "عندهم فقط",
+   "cases": 600,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "alerts"
+   ]
+  },
+  {
+   "row": 156,
+   "area": "النماذج",
+   "formula": "التفقيط",
+   "status": "مطابق",
+   "cases": 5032,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "tafqeet"
+   ]
+  },
+  {
+   "row": 163,
+   "area": "ميزات جديدة",
+   "formula": "حاسبة الراتب: إجمالي ← مكونات",
+   "status": "عندهم فقط",
+   "cases": 4000,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "salcalc"
+   ]
+  },
+  {
+   "row": 164,
+   "area": "ميزات جديدة",
+   "formula": "حاسبة الراتب: صافي ← مكونات",
+   "status": "عندهم فقط",
+   "cases": 4000,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "salcalc"
+   ]
+  },
+  {
+   "row": 165,
+   "area": "ميزات جديدة",
+   "formula": "حاسبة الراتب: أساسي ← إجمالي وصافي",
+   "status": "عندهم فقط",
+   "cases": 4000,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "salcalc"
+   ]
+  },
+  {
+   "row": 166,
+   "area": "ميزات جديدة",
+   "formula": "حاسبة الراتب: بدل مطلوب لصافي محدد",
+   "status": "عندهم فقط",
+   "cases": 4000,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "salcalc"
+   ]
+  },
+  {
+   "row": 167,
+   "area": "ميزات جديدة",
+   "formula": "تكلفة الشركة في حاسبة الراتب",
+   "status": "عندهم فقط",
+   "cases": 4000,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "salcalc"
+   ]
+  },
+  {
+   "row": 168,
+   "area": "ميزات جديدة",
+   "formula": "ضريبة القيمة المضافة من الشامل",
+   "status": "عندهم فقط",
+   "cases": 1000,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "tax"
+   ]
+  },
+  {
+   "row": 169,
+   "area": "ميزات جديدة",
+   "formula": "ضريبة القيمة المضافة من غير الشامل",
+   "status": "عندهم فقط",
+   "cases": 1000,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "tax"
+   ]
+  },
+  {
+   "row": 170,
+   "area": "ميزات جديدة",
+   "formula": "ملف التأمينات الشهري",
+   "status": "عندهم فقط",
+   "cases": 1500,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "inscalc"
+   ]
+  },
+  {
+   "row": 171,
+   "area": "ميزات جديدة",
+   "formula": "تقرير المخصصات",
+   "status": "عندهم فقط",
+   "cases": 1500,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "prov"
+   ]
+  },
+  {
+   "row": 172,
+   "area": "ميزات جديدة",
+   "formula": "ملف تحويل الرواتب (WPS)",
+   "status": "عندهم فقط",
+   "cases": 1000,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "wps"
+   ]
+  },
+  {
+   "row": 173,
+   "area": "ميزات جديدة",
+   "formula": "فحص الآيبان والهوية",
+   "status": "عندهم فقط",
+   "cases": 1000,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "wps"
+   ]
+  },
+  {
+   "row": 174,
+   "area": "ميزات جديدة",
+   "formula": "إهلاك الأصول",
+   "status": "عندهم فقط",
+   "cases": 1500,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "assets"
+   ]
+  },
+  {
+   "row": 175,
+   "area": "ميزات جديدة",
+   "formula": "نسبة الإهلاك السنوية",
+   "status": "عندهم فقط",
+   "cases": 1500,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "assets"
+   ]
+  },
+  {
+   "row": 176,
+   "area": "ميزات جديدة",
+   "formula": "جرد الأصول السنوي",
+   "status": "عندهم فقط",
+   "cases": 1560,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "assets",
+    "yearreport"
+   ]
+  },
+  {
+   "row": 177,
+   "area": "ميزات جديدة",
+   "formula": "نسبة إنجاز المستهدف",
+   "status": "عندهم فقط",
+   "cases": 1000,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "goals"
+   ]
+  },
+  {
+   "row": 179,
+   "area": "ميزات جديدة",
+   "formula": "تصنيف التقييم",
+   "status": "عندهم فقط",
+   "cases": 1000,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "goals"
+   ]
+  },
+  {
+   "row": 180,
+   "area": "ميزات جديدة",
+   "formula": "مفتاح الفترة (سنوي/ربع/شهري)",
+   "status": "عندهم فقط",
+   "cases": 1000,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "goals"
+   ]
+  },
+  {
+   "row": 182,
+   "area": "ميزات جديدة",
+   "formula": "ضريبة الدخل في مصر",
+   "status": "عندهم فقط",
+   "cases": 1500,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "egypt"
+   ]
+  },
+  {
+   "row": 183,
+   "area": "ميزات جديدة",
+   "formula": "مساهمة الشهداء في مصر",
+   "status": "عندهم فقط",
+   "cases": 1500,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "egypt"
+   ]
+  },
+  {
+   "row": 184,
+   "area": "ميزات جديدة",
+   "formula": "معامل الاستقالة في مصر",
+   "status": "عندهم فقط",
+   "cases": 1500,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "egypt"
+   ]
+  },
+  {
+   "row": 185,
+   "area": "ميزات جديدة",
+   "formula": "تعويض م.77 في مصر",
+   "status": "عندهم فقط",
+   "cases": 1500,
+   "diffs": 0,
+   "found": false,
+   "agrees": true,
+   "note": "",
+   "suites": [
+    "egypt"
+   ]
+  }
+ ]
+}
